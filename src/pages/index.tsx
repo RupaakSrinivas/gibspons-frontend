@@ -20,7 +20,7 @@ export default function Home() {
             draft <br /> <span className="text-[#5379F6]">mails</span> in a
             blink
           </h1>
-          <p className="mt-4 text-[1.75rem]">
+          <p className="mt-4 text-[1.75rem] text-white">
             introducing gibspons, draft mails, track sponsorships, and manage
             negotiations, all in one place!
           </p>
