@@ -44,6 +44,7 @@ export default function Login() {
       toast.success("OTP sent to your email");
       setIsVerify(true);
     } catch (error: any) {
+      toast.error(error.message)
       console.error(error);
     }
   };
@@ -64,6 +65,7 @@ export default function Login() {
       }
       console.log(resp);
     } catch (error: any) {
+      toast.error(error.message)
       console.error(error);
     }
   };
